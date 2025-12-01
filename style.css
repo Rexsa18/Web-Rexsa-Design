@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Science+Gothic:wght@100..900&display=swap');
+
+ :root {
+--rf-brand: #fb8d19;
+--rf-brand-rgb: 248, 54, 145;
+--rf-dark: #212237;
+--rf-body: #989898;
+--f-main: "Raleway", sans-serif;
+--transition: all 6s cubic-bezier(,165,184,.44, 1);
+--shadow: 0px 15px, 30px, rgba(0,0,0,0.1);
+ }
+
+body {
+  font-family: var(--f-main);
+  color: var(--rf-body);
+  line-height: 2.0;
+}
+
+h1, .h1 h3, .h3 h4, .h4 h5, .h5 h6, .h6 {
+  font-weight: 1000;
+  color: var(--rf-dark);
+  font-family: var(--f-main);
+}
+
+h0, .h0 {
+  font-weight: 1000;
+  color: var(--rf-dark);
+  font-family: var(--f-main);
+}
+h2, .h2 {
+  font-weight: 400;
+  color: var(--rf-dark);
+  font-family: var(--f-main);
+  max-width: 600px;
+  font-size: 15px;
+}
+
+h7, .h7 {
+  font-weight: 1000;
+  color: var(--rf-dark);
+  font-family: var(--f-main);
+  position: relative;
+}
+
+h8, .h8 {
+  font-weight: 800;
+  color: var(--rf-dark);
+  font-family: var(--f-main);
+  position: relative;
+}
+
+h9, .h9 {
+  font-weight: 500;
+  color: var(--rf-dark);
+  font-family: var(--f-main);
+  position: relative;
+}
+
+.text-brand {
+  color: var(--rf-brand);
+}
+
+.navbar {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #f4f4f4;
+}
+
+.navbar.scrolled {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #f4f4f4;
+}
+
+.but {
+  background-color: var(--rf-brand);
+}
+
+#home {
+  background-image: url('bg1.png');
+  background-position: center;
+  background-size: cover;
+}
+
+#home1 {
+  background-image: url('bg3.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.btn-brand {
+  background-color: var(--rf-brand);
+}
+
+.section-padding {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.section-title {
+  max-width: 550px;
+  margin: 0 auto 60px auto;
+}
+
+.section-title .line {
+  width: 150px;
+  height: 2px;
+  background-color: var(--rf-brand);
+  display: inline-block;
+}
+
+.section-padding1 {
+  padding-top: 100px;
+  padding-bottom: 20px;
+}
+
+.section-title1 {
+  max-width: 550px;
+  margin: 0 auto 0px auto;
+}
+
+.section-title1 .line1 {
+  width: 150px;
+  height: 2px;
+  background-color: var(--rf-brand);
+  display: inline-block;
+}
+
+.section-padding2 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.section-padding3 {
+  padding-top: 0px;
+  padding-bottom: 50px;
+}
+
+.section-padding4 {
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+
+.about-icon {
+  width: 60px;
+  height: 60px;
+  background-color: var(--rf-brand);
+  color: white;
+  font-size: 27px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-judul {
+  color: black;
+}
+
+.about-icon1 {
+  width: 60px;
+  height: 60px;
+  background-color: var(--rf-brand);
+  color: white;
+  font-size: 27px;
+  display: inline-flex;
+  justi
+}
+
+.text-project {
+  font-weight: 500;
+  color: white;
+}
+
+.tahapan {
+  position: relative;
+}
+
+.tahapan::before {
+  content: '';
+  height: 100%;
+  width: 1px;
+  background-color: rgba (var(--rf-brand-rgb), 0.4);
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.tahapan::after {
+  content: '';
+  height: 15px;
+  width: 15px;
+  background-color: var(--rf-brand);
+  position: absolute;
+  left: 0;
+  top: 0;
+}
